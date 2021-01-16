@@ -35,10 +35,6 @@ h1, h2 {
     font-family: 'Roboto Mono', monospace;
 }
 
-h2 {
-    font-family: 'Roboto Mono', monospace;
- }
-
  button {
     border: solid;
     color: white;
@@ -114,4 +110,9 @@ h2 {
     font-weight: normal;
   }
   
+  .project-image{
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+  }
   
