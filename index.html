@@ -16,6 +16,7 @@
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
         integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="style.css">
     <title>Pamela Gutierrez</title>
 </head>
@@ -27,7 +28,7 @@
         <div class="hero-text">
             <h1>Pamela Gutierrez</h1>
             <h2><small>Web Developer | Travel Lover</small></h2>
-            <br>
+
             <p>
                 Prefect’s relawney veela squashy armchairs, SPEW: Gamp’s Elemental Law of Transfiguration.
                 Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified. Beuxbatons flying half-blood
@@ -37,11 +38,25 @@
             <br>
             <div class="button-hover-reveal-wrapper">
                 <label>Learn More</label>
+                <!-- RESUME BUTTON -->
                 <a href="assets/Pamela_Gutierrez_-_Web_Developer (2).pdf" target="_blank"
                     class="button-hover-reveal">Resume</a>
-                <a href="https://github.com/pamela-gutierrez" target="_blank" class="button-hover-reveal">
+                <!-- ABOUT ME BUTTON -->
+                <!-- <a href="aboutme.html" target="_blank" class="button-hover-reveal"> -->
+                <a data-open="reveal_modal" class="button-hover-reveal">
                     About Me</a>
+                <div class="large reveal" id="reveal_modal" data-reveal>
+                    <h2>About Me</h2>
+                    <p>Foundation is a family of responsive front-end frameworks that make
+                        it easy to design beautiful responsive websites, apps and emails
+                        that look amazing on any device.
+                    </p>
 
+                    <!-- <button class="close-button" data-close aria-label="Close modal" type="button">
+                        <span aria-hidden="true">&times;</span>
+                    </button> -->
+                </div>
+                <!-- PROJECT  -->
                 <a href="projects.html" target="_blank" class="button-hover-reveal">Projects</a>
             </div>
             <br>
@@ -63,7 +78,11 @@
         </div>
     </div>
 
-
+    <script>
+        $(document).ready(function () {
+            $(document).foundation();
+        })
+    </script>
     <script src="https://kit.fontawesome.com/a7978ebb6a.js" crossorigin="anonymous"></script>
 
 </body>
