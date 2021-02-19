@@ -37,8 +37,6 @@ h1, h2, p {
 
 }
 
-
-
  button {
     border: solid;
     color: white;
@@ -49,11 +47,7 @@ h1, h2, p {
     font-size: 16px;
     margin: 4px 2px;
   }
-  /* .breadcrumbs{
-    font-family: 'Raleway', sans-serif;
-      color: white;
-      font-size: 50px;
-  } */
+
   
   .btn {
     border: 2px solid black;
