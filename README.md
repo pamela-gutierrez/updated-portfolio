@@ -65,9 +65,7 @@ ______________________________________________________________________________
 ### **Author Links**
 
 * **PAMELA GUTIERREZ**
-* **UC Berkeley Coding Bootcamp**
-  
-- [Link to Portfolio Site](#)
+- [Link to Portfolio Site](www.pamela-gutierrez.com)
 - [Link to Github](https://github.com/pamela-gutierrez) 
 - [Link to LinkedIn](www.linkedin.com/in/pamela-gutierrez)
 
